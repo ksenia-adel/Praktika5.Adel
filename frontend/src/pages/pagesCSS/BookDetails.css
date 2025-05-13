@@ -1,0 +1,32 @@
+
+/*Headers*/
+.text-primary {
+  color: #57310b !important;
+}
+
+h2, h4 {
+  font-weight: 1000;
+  font-family: 'Merriweather', serif;
+}
+
+/*Go Back button*/
+.btn-link {
+  color: #058f00;
+  font-size: 0.95rem;
+}
+
+textarea.form-control {
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+/*"Confirm" and "Add comment" buttons*/
+.btn-primary {
+  background-color: #775110;
+}
+
+.btn-primary:hover {
+  background-color: #8a5e1b;
+}
+

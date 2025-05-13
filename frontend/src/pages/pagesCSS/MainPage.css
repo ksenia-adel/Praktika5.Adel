@@ -1,0 +1,84 @@
+/* Activity Logs button*/
+.activity-log-btn {
+  background-color: #a4a4a4;
+  color: #000000;
+  border: none;
+}
+
+.activity-log-btn:hover {
+  background-color: #936000;
+  color: rgb(0, 0, 0);
+}
+
+/* Book cover*/
+.book-cover {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  margin-top: 10px;
+}
+/*Search bar*/
+.search-bar {
+  background-color: #ffffff81; /* нежно-жёлтый фон */
+  color: #ffffff00;               /* цвет текста */
+  border: 1px solid #f0ad4e;
+  font-family: 'Merriweather', serif;
+}
+
+.search-bar::placeholder {
+  color: #66340b; /* цвет подсказки */
+}
+
+
+/*Page name/ Header*/
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+  font-weight: bold; 
+
+}
+
+/*Book title*/
+.book-title-link {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  text-align: center;
+  
+}
+
+.book-title-link:hover {
+  color: #3c7620;
+  text-align: center;
+}
+
+/*LogOut button*/
+.logout-btn {
+  background-color: #d32f2f;
+  color: #ffffff;
+}
+
+.logout-btn:hover {
+  background-color: #b71c1c;
+  color: #fff;
+}
+
+
+@media (max-width: 600px) {
+  .book-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .book-item div {
+    margin-top: 0.5rem;
+  }
+}
+
