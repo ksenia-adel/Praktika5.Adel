@@ -137,6 +137,8 @@ Then migrate, import Books and start backend server.js
 ```js
 node server.js
 ```
+### Swagger documentation:
+http://localhost:3001/api-docs
 
 Open new terminal and start React App
 ```js
